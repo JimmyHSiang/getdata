@@ -38,8 +38,7 @@ extracted <- cbind(S, Y, X)
 write.table(extracted, "extracted_data.txt")
 
 
-## Part 3. Uses descriptive activity names to name the activities in ##
-##         the data set               
+## Part 3. Uses descriptive activity names to name the activities in the data set               
 ## Part 4. Appropriately labels the data set with descriptive activity names.
 
 activities <- read.table("activity_labels.txt")
